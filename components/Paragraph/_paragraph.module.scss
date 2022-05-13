@@ -1,0 +1,10 @@
+.paragraph {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  overflow: auto;
+  padding-top: 1rem;
+  max-width: 600px;
+  font-size: 18px;
+}

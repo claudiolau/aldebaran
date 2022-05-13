@@ -1,0 +1,14 @@
+# dependencies
+node_modules
+package-lock.json
+.vscode
+
+# build 
+dist/
+dist/**/*
+storybook-static
+
+/.env
+
+# logs
+build-storybook.log

@@ -1,0 +1,27 @@
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: #fff;
+}
+
+.navbar li {
+  padding: 1rem;
+
+  a:hover {
+    box-shadow: inset 100px 0 0 0 rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+  }
+  > .active {
+    box-shadow: inset 100px 0 0 0 rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+  }
+  > .inactive {
+    box-shadow: none;
+  }
+}

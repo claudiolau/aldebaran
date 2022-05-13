@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`items navbar 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <a
+        href="/test"
+      >
+        test
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`loads items eventually 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <a
+        href="/test"
+      >
+        test
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`loads items navbar 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <a
+        href="/test"
+      >
+        test
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

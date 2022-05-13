@@ -1,0 +1,23 @@
+.footer {
+  position: relative;
+  bottom: 2rem;
+  display: grid;
+  margin: auto;
+  overflow: auto;
+  padding: 4rem;
+  max-width: 600px;
+  grid-template-columns: repeat(3, 10rem);
+  justify-content: center;
+  row-gap: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    grid-template-columns: repeat(2, 10rem);
+    text-align-last: left;
+  }
+  .footerItem {
+    place-items: center;
+    text-align: center;
+  }
+}

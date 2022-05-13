@@ -1,0 +1,25 @@
+{
+  "include": ["components"],
+  "exclude": ["node_modules", "**/*.stories.tsx"],
+  "references": [],
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["es2016", "es5", "dom", "dom.iterable"],
+    /* Specifiy which library files must be included*/
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "dist/typings",
+    "sourceMap": true,
+    "isolatedModules": true,
+    "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "module": "es6",
+    "moduleResolution": "node",
+    "esModuleInterop": false,
+    "noImplicitAny": true,
+    "outDir": "./dist"
+  }
+}
