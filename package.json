@@ -1,6 +1,6 @@
 {
-  "name": "aldebaran-core",
-  "version": "1.0.37",
+  "name": "aldebaran-ui",
+  "version": "1.0.0",
   "description": "A ui-component library",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
